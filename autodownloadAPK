@@ -12,7 +12,7 @@
     <script>
         window.onload = function () {
             var link = document.createElement("a");
-            link.href = "link/to/your/file"; // Replace with the actual file URL
+            link.href = "app-release.apk"; // Replace with the actual file URL
             link.download = true; // This ensures the file is downloaded
             link.click(); // Simulate a click on the link
         };
