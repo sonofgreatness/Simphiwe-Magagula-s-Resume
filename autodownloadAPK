@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic File Download</title>
+</head>
+<body>
+    <!-- Your site content goes here -->
+
+    <!-- Add the following JavaScript code -->
+    <script>
+        window.onload = function () {
+            var link = document.createElement("a");
+            link.href = "link/to/your/file"; // Replace with the actual file URL
+            link.download = true; // This ensures the file is downloaded
+            link.click(); // Simulate a click on the link
+        };
+    </script>
+</body>
+</html>
